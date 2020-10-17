@@ -31,7 +31,7 @@ class App extends Component{
         
         return(
             <div className="main">
-                <input className="textbox" type="text" onChange ={this.txtchange} />
+                <input className="textbox" type="text" onChange ={this.txtchange} required />
                 <br/>
                 <button className="button" onClick={this.additm}>Add</button>
                 <ul className="list">
